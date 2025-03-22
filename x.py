@@ -331,4 +331,4 @@ async def query_agents(request: Query):
 # Run FastAPI server with: uvicorn script_name:app --reload
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run('x:app', host="127.0.0.1", port=6700,reload=True)
+    uvicorn.run('x:app', host="0.0.0.0", port=6700,reload=True)
