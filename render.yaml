@@ -5,4 +5,4 @@ services:
   plan: free
   autoDeploy: false
   buildCommand: pip install -r requirements.txt
-  startCommand: uvicorn x:app --host 0.0.0.0 port 4567
+  startCommand: python x.py
